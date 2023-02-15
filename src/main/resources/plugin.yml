@@ -1,0 +1,11 @@
+name: PerfectTags
+version: '${project.version}'
+main: org.aneras.mc.perfecttags.PerfectTags
+api-version: 1.18
+depend: [ PlaceholderAPI ]
+authors: [ Aneras ]
+softdepend:
+  - LuckPerms
+commands:
+  tags:
+    usage: /tags
